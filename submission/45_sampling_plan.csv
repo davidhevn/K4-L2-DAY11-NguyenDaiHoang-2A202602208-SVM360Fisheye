@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,Không có vật cản gần,Tình huống phổ biến khi xe chạy thẳng
+front,hard,20,Ngược sáng hoặc xe tạt đầu,Đảm bảo an toàn vùng mù sát mũi xe
+rear,normal,30,Phản chiếu ánh sáng mặt đường,Kiểm tra độ nhạy của camera lùi
+rear,hard,20,Trời mưa hoặc đêm tối,Tình huống khó quan sát
+left,normal,25,Xe vượt từ phía sau,Cảnh báo điểm mù
+left,hard,25,Xe máy lách sát mép,Đánh giá khả năng bám đuôi
+right,normal,25,Xe tạt ngang,Cảnh báo điểm mù bên phụ
+right,hard,25,Người đi bộ tạt qua đột ngột,Kiểm tra thời gian phản xạ

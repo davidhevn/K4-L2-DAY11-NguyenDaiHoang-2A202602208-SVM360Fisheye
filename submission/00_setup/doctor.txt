@@ -1,0 +1,4 @@
+✓ Python 3.12
+✓ CVAT 2.74.1
+✓ Git không track .env
+✓ Repo PUBLIC

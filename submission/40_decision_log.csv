@@ -1,1 +1,5 @@
-id,date,question,decision,rationale,status
+date,topic,decision,status,owner
+2026-09-29,Gộp người và xe,Gộp chung người lái và xe máy thành 1 box,approved,guideline
+2026-09-29,Vật thể bị cắt mép,Bắt buộc phải đánh dấu truncated,approved,guideline
+2026-09-29,Vật thể quá nhỏ,Xóa bỏ mọi box nhỏ hơn 40px,approved,guideline
+2026-09-29,Méo ảnh fisheye,Cần xử lý nhiễu model do góc méo,escalated,ai_team

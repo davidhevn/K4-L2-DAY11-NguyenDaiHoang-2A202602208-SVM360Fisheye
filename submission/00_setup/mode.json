@@ -1,0 +1,25 @@
+{
+  "members": [
+    "binh",
+    "chi",
+    "david"
+  ],
+  "assignments": {
+    "binh": "B4-dense",
+    "chi": "B3-dense",
+    "david": "B2-center"
+  },
+  "self": "david",
+  "slice": "B2-center",
+  "degrade": [],
+  "current_slice": "B2-center",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_062370.jpg:1",
+    "adasind_062370.jpg:2",
+    "adasind_062370.jpg:3",
+    "adasind_062370.jpg:4",
+    "adasind_062370.jpg:5"
+  ]
+}
