@@ -1,1 +1,18 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,L6,na,SPURIOUS,E1_annotator_error,P1,annotator,R04,Lệch IoU xe ba bánh đỗ cạnh sạp hàng,rework,v1.0.0,Soát lại kích thước box R5/L6
+calib,C0,adasind_019560.jpg,R5,na,MISSING,E0_reference_defect,P2,guideline,R04,Thiếu box đối ứng IoU >= 0.5 với L6,keep_with_reason,v1.0.0,Teaching reference phân tách khác
+r2_qa,B2-center,adasind_062370.jpg,L1,L_only,ATTRIBUTE,,P2,annotator,R05,Box Bike chạm mép phải xbr=1080 nhưng truncated=false,rework,v1.0.0,Cần bật truncated=true
+r2_qa,B2-center,adasind_062370.jpg,L3,L_only,ATTRIBUTE,,P2,annotator,R05,Box ThreeWheeler chạm mép trái xtl=0 nhưng truncated=false,rework,v1.0.0,Cần bật truncated=true
+r2_qa,B2-center,adasind_086220.jpg,L1,L_only,SPURIOUS,,P1,annotator,R01,Chiều cao box Bike H=39.08px nhỏ hơn ngưỡng H=40,rework,v1.0.0,Bỏ box vật thể dưới 40px
+r2_qa,B2-center,adasind_117120.jpg,L4,L_only,SPURIOUS,,P1,annotator,R01,Chiều cao box Car H=21.6px nhỏ hơn ngưỡng H=40,rework,v1.0.0,Bỏ box vật thể dưới 40px
+r1_craft,B3-dense,adasind_167700.jpg,L6+R4,LRM,WRONG_CLASS,E1_annotator_error,P1,annotator,R04,Gán nhãn Truck trong khi vật thể là ThreeWheeler,rework,v1.0.0,Sửa lại ThreeWheeler
+r1_craft,B3-dense,adasind_167700.jpg,L11,LM_noR,SPURIOUS,E1_annotator_error,P1,annotator,R01,Box lỏng ở rìa dẫn đến sinh box thừa,rework,v1.0.0,Xóa box hoặc ôm sát vật thể
+r1_craft,B3-dense,adasind_199770.jpg,R6,RM_noL,MISSING,E1_annotator_error,P1,annotator,R01,Bỏ sót xe máy ở góc rìa vòng kính,rework,v1.0.0,Bổ sung box Bike ở rìa
+r3_diag,B3-dense,adasind_167700.jpg,L10+R6,LR_noM,MISSING,E4_model_domain,P1,ai_team,R04,Model YOLO bỏ sót ThreeWheeler ở góc mép,escalate,v1.0.0,Domain shift ảnh fisheye
+r3_diag,B3-dense,adasind_167700.jpg,R4+M4,RM_noL,MISSING,E1_annotator_error,P1,annotator,R04,Model và Reference cùng nhận diện nhưng annotator gán sai,rework,v1.0.0,Sửa class theo reference
+r3_diag,B3-dense,adasind_167700.jpg,M5,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,Model hallucinate box thừa do bóng râm trên mặt đường,keep_with_reason,v1.0.0,Model false positive
+r3_diag,B3-dense,adasind_199770.jpg,L8+R5,LR_noM,MISSING,E4_model_domain,P1,ai_team,R03,Model tách rời người lái và xe trong khi rule K7 gộp Bike,escalate,v1.0.0,Cần finetune model theo rule rider
+r3_diag,B3-dense,adasind_199770.jpg,R3+M10,RM_noL,MISSING,E1_annotator_error,P1,annotator,R01,Annotator bỏ sót vật thể midzone mà Model và Reference đều thấy,rework,v1.0.0,Bổ sung box theo model/ref
+r3_diag,B3-dense,adasind_199770.jpg,M6,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,Model phát hiện ảo ở rìa vành kính do méo quang học fisheye,keep_with_reason,v1.0.0,Lọc box ở ngoài lens_border
+r3_diag,B3-dense,adasind_199770.jpg,M4,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R02,Model phát hiện ảo ở rìa mép do viền đen kính fisheye,keep_with_reason,v1.0.0,Lọc box ở ngoài lens_border
+r3_diag,B3-dense,adasind_145860.jpg,L2+R1+M1,LRM,WRONG_CLASS,E4_model_domain,P2,ai_team,R04,Cả ba nguồn đều khớp vị trí xe máy ở center,keep_with_reason,v1.0.0,Khớp hoàn toàn giữa LRM

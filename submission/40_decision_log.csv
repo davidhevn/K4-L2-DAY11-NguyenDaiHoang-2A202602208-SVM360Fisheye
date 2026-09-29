@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-29,Có gán nhãn vạch sơn mờ ở hậu cảnh bãi đỗ xe không?,Không gán nhãn,Vạch mờ thuộc lối lưu thông chung không tạo ranh giới phân chia ô đỗ riêng lẻ,decided
+D02,2026-09-29,Có tách người lái xe hai bánh thành Pedestrian riêng không?,Không tách,Quy tắc R03/K7 yêu cầu rider ngồi trên xe gộp chung thành một box Bike duy nhất,decided
+D03,2026-09-29,Cánh tay và ghi-đông người lái xe ego ở góc dưới trái xử lý thế nào?,Vẽ polygon ignore_region reason ego_body,Quy tắc R06/R07 yêu cầu bọc toàn bộ phần thân xe/cơ thể xe ego nhìn thấy để tránh model gán nhầm Pedestrian,decided
+D04,2026-09-29,Vật thể xuất hiện đồng thời ở vùng seam giữa 2 camera SVM xử lý thế nào trên ảnh 2D?,Escalate lên Lead/System Architect,Chưa có đồng bộ timestamp micro-giây và calibration ma trận 3D; cần policy thống nhất tầng fusion xử lý trước khi xóa/gộp box,escalated

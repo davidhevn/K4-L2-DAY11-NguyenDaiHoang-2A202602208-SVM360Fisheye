@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,35,Chói lóa ngược sáng đèn xe đối diện và bóng râm tương phản cao,Bao quát lưu lượng giao thông chính khi xe tiến thẳng với nhiều loại xe
+front,hard,20,Méo rìa fisheye cực mạnh khi xe rẽ và vật thể bị cắt mép kính (truncated),Kiểm thử độ bám box sát biên vòng kính và phân tách rider với xe hai bánh
+rear,normal,30,Lóa đèn pha xe bám sau ban đêm và bụi bẩn bám bề mặt kính sau,Theo dõi dòng phương tiện bám đuôi và duy trì an toàn khi lùi đỗ
+rear,hard,15,Vật thể xuất hiện ở khoảng cách siêu gần điểm mù khi lùi đỗ xe,Đảm bảo phát hiện người đi bộ hoặc chướng ngại vật sát thân xe phía sau
+left,normal,35,Méo quang học khi xe máy vượt sát sườn bên trái,Giám sát làn xe vượt và phương tiện cắt ngang từ các ngã rẽ bên trái
+left,hard,15,Vật thể nằm trong vùng seam chồng lấn giữa camera trước-trái hoặc sau-trái,Đánh giá xử lý vật thể xuất hiện trên 2 camera và vùng che ego_body
+right,normal,35,Vật thể lẫn vào vỉa hè hoặc chướng ngại vật tĩnh ven mép đường,Giám sát người đi bộ và xe hai bánh di chuyển sát lề đường bên phải
+right,hard,15,Che khuất phức tạp do cây cối/cột điện và méo vùng seam góc phải,Đánh giá chất lượng box khi bị occluded nặng và phân định cross-camera

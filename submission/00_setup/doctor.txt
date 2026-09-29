@@ -1,0 +1,5 @@
+✓ Python 3.10
+✓ CVAT 2.75.1
+! CVAT khác 2.74.x; kiểm tra API quality
+✓ Git không track .env
+! Chưa có gh; tự kiểm tra repo bài nộp là PUBLIC trên GitHub
