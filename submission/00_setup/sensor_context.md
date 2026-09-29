@@ -1,6 +1,5 @@
 # Sensor context
 
-- TODO — Rig: mô tả ngắn xe/camera gắn ở đâu theo hiểu biết của bạn từ ảnh (ADASIND không kèm tài liệu rig chi
-  tiết, ghi theo quan sát).
-- TODO — `ego_body` nhìn thấy ở đâu trong frame (góc capo, gương, tay lái...).
-- TODO — Vòng kính (lens circle) nằm ở vị trí nào trong ảnh, chiếm khoảng bao nhiêu phần khung hình.
+- Camera mắt cá (fisheye) được gắn ở đầu, đuôi và hai bên sườn xe để quan sát toàn cảnh 360 độ xung quanh xe.
+- Phần thân xe (ego_body) thường xuất hiện ở phần rìa tối dưới cùng hoặc hai bên mép ảnh tùy góc cam.
+- Vòng tròn đen của ống kính (lens circle) bao phủ gần như toàn bộ bức ảnh, chừa lại 4 góc tối đen ở ngoài rìa.

@@ -1,1 +1,13 @@
 round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,R1,na,MISSING,E1_annotator_error,P3,annotator,R01,,keep_with_reason,,
+calib,C0,adasind_019560.jpg,R2,na,MISSING,E2_guideline_gap,P3,guideline,R03,,keep_with_reason,,
+calib,C0,adasind_019560.jpg,R3,na,MISSING,E1_annotator_error,P3,annotator,R06,,keep_with_reason,,
+r1_craft,B2-center,adasind_062370.jpg,L1,LM_noR,MISSING,E1_annotator_error,P2,annotator,R04,,rework,,
+r1_craft,B2-center,adasind_062370.jpg,L2,LRM,SPURIOUS,E1_annotator_error,P2,annotator,R01,,rework,,
+r1_craft,B2-center,adasind_062370.jpg,L3,RM_noL,ATTRIBUTE,E1_annotator_error,P2,annotator,R05,,rework,,
+r2_qa,B2-center,adasind_086220.jpg,L1,M_only,SPURIOUS,,P1,annotator,R01,Chiều cao box Bike nhỏ hơn 40,rework,v1.0.0,Bỏ box vật thể dưới 40px
+r2_qa,B2-center,adasind_117120.jpg,L4,LM_noR,SPURIOUS,,P1,annotator,R01,Chiều cao box Car nhỏ hơn 40,rework,v1.0.0,Bỏ box vật thể dưới 40px
+r2_qa,B4-dense,adasind_258420.jpg,L4,M_only,STRUCTURE,,P2,annotator,R10,Tách Pedestrian và Bike,rework,,
+r3_diag,B2-center,adasind_117120.jpg,M1,M_only,MISSING,E4_model_domain,P2,ai_team,R08,,escalate,,
+r3_diag,B2-center,adasind_117120.jpg,M2,M_only,SPURIOUS,E4_model_domain,P2,ai_team,R09,,escalate,,
+r3_diag,B2-center,adasind_117120.jpg,M3,M_only,WRONG_CLASS,E4_model_domain,P2,ai_team,R10,,escalate,,
