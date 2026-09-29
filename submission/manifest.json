@@ -18,7 +18,7 @@
     {
       "file": "parking/annotations.xml",
       "lines": 2,
-      "sha256": "a3f2472a40590d1d3faae2b9ac14c5f5b7c91325ad897ff131180034d8be92c2"
+      "sha256": "3383098bf4a8d39a0f69a478af30c0712dd37857dd221e813dda64010fa344f8"
     },
     {
       "file": "parking/observations.md",
@@ -28,7 +28,7 @@
     {
       "file": "p1_calib/annotations.xml",
       "lines": 2,
-      "sha256": "4d292d61388db9e2f598b9554d8f8994c0d107c42574277e42a2696f7805d7db"
+      "sha256": "46bd5850a285ac85c3e0ea12ba80922c6e866b6c53ea2d8dbdb6a687ccbbd5d0"
     },
     {
       "file": "p1_calib/lock.txt",
@@ -55,7 +55,7 @@
     {
       "file": "r1_craft/annotations.xml",
       "lines": 368,
-      "sha256": "ef721fb5efc1dce105a888f844c5c18dcf110e304f9411b5f4c7084c0c17e2ab"
+      "sha256": "a1ca09ccb10ddf34a1458a2d1dd4419bf488b70914f402673b0ea0643daa8758"
     },
     {
       "file": "r1_craft/lock.txt",
@@ -87,7 +87,7 @@
     {
       "file": "r2_qa/qa_review.md",
       "lines": 12,
-      "sha256": "060788b000f94bdda18d275636623742991468dba78290c92df2079a1ee75b91"
+      "sha256": "c0e171944750b7ce830d253509c009b4b3c04a53910f8f2bb1a623bb04beecc3"
     },
     {
       "file": "r2_qa/qa_overlay.html",
@@ -132,7 +132,7 @@
     {
       "file": "rework/annotations-v2.xml",
       "lines": 368,
-      "sha256": "0e86d87f158eba9dc750b9859bc9758abb7470d1b60d7405d18658a75dd4b851"
+      "sha256": "8556510d89986303823d83d5e90508d065fc185ab3bbf66a60479b257aed424f"
     },
     {
       "file": "rework/lock2.txt",
@@ -148,7 +148,7 @@
     {
       "file": "findings.csv",
       "lines": 18,
-      "sha256": "b0211f0713d3c0cb701acdb5291ca76fd42d5af3d42c5a9ee5f385f48e2022a9"
+      "sha256": "7cef2f40b39d1f65f5019b91113c31d6d9168d32d666943b81e9c943bc3ac93c"
     },
     {
       "file": "10_error_card.md",
@@ -168,7 +168,7 @@
     {
       "file": "40_decision_log.csv",
       "lines": 5,
-      "sha256": "d90169cdb31948b6b7fe14856bbc53ee570249bfd09b2d092e46f02e365857d6"
+      "sha256": "8874c2df1be1dd6ae57da9796272a0d1cb136d374c8b59977b76177a0abd9bab"
     },
     {
       "file": "45_review_plan.md",
@@ -178,17 +178,17 @@
     {
       "file": "45_sampling_plan.csv",
       "lines": 9,
-      "sha256": "b0340b18b3899ac1d95d47e73888d6e77867e8a1e13036d55a8cd58fc663148d"
+      "sha256": "57ff700814b525781e2c5abccbf3832820b12d94909b9c825ff48f5d8ebd4849"
     },
     {
       "file": "46_gold_set_plan.md",
       "lines": 18,
-      "sha256": "3d2ed1ba4252bb6ee05b8799b2d92c3b855345b36aa1d78b5628897093ea0fa9"
+      "sha256": "c5e1acb03866723bd8c02c18f5986c0061756ce844147a1adf1e9e1f37b95fb9"
     },
     {
       "file": "50_exit_ticket.md",
       "lines": 25,
-      "sha256": "0bd26aa204e499e30580280a3a5bc5294277f39a1494180a28822b382c453ae3"
+      "sha256": "42d22c648f4de1ed732dad16603c148c643033e273bc9fd443a1107a55773d0a"
     }
   ],
   "failed_gates": []
