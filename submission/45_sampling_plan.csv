@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,medium,Điều kiện giao thông bình thường phía trước xe.
+front,hard,25,high,Xe phía trước phanh gấp hoặc bị chói nắng trực tiếp.
+rear,normal,25,medium,Giao thông bình thường phía sau xe.
+rear,hard,25,high,Xe sau bám đuôi sát hoặc ban đêm đèn pha chói mắt.
+left,normal,25,medium,Điều kiện bình thường bên trái.
+left,hard,25,high,Góc mù bên trái khi xe lớn vượt sát mép.
+right,normal,25,medium,Điều kiện bình thường bên phải.
+right,hard,25,high,Góc mù bên phải có người đi bộ hoặc xe máy chen lấn.

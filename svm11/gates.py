@@ -40,14 +40,14 @@ def doctor(base):
     else:
         messages.append("✓ Git không track .env")
     if shutil.which("gh"):
-        result = subprocess.run(["gh", "repo", "view", "--json", "visibility"], cwd=str(base),
+        result = subprocess.run(["gh", "repo", "view", "--json", "isPrivate"], cwd=str(base),
                                 capture_output=True, text=True, check=False)
         if result.returncode == 0:
             try:
-                visibility = json.loads(result.stdout).get("visibility")
+                is_private = json.loads(result.stdout).get("isPrivate")
             except ValueError:
-                visibility = None
-            messages.append("✓ Repo PUBLIC" if visibility == "PUBLIC" else "✗ Repo cần PUBLIC để chấm bài")
+                is_private = None
+            messages.append("✓ Repo PUBLIC" if is_private is False else "✗ Repo cần PUBLIC để chấm bài")
         else:
             messages.append("✗ Không xác nhận được repo PUBLIC; kiểm tra remote và quyền gh")
     else:

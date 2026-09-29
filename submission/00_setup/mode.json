@@ -1,0 +1,24 @@
+{
+  "current_slice": "B4-dense",
+  "support_prefill": false,
+  "support_slice": "",
+  "prefill_box_ids": [
+    "adasind_258420.jpg:1",
+    "adasind_258420.jpg:2",
+    "adasind_258420.jpg:3",
+    "adasind_258420.jpg:4"
+  ],
+  "members": [
+    "david",
+    "phong",
+    "tuan"
+  ],
+  "assignments": {
+    "david": "B4-edge",
+    "phong": "B4-dense",
+    "tuan": "B3-mid"
+  },
+  "self": "phong",
+  "slice": "B4-dense",
+  "degrade": []
+}

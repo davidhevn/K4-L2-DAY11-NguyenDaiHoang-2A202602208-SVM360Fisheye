@@ -1,0 +1,8 @@
+round,slice,frame,object_ref,cell,what,why,severity,owner,rule_id,evidence,action,rules_version,note
+calib,C0,adasind_019560.jpg,R1,na,MISSING,Các box do tôi vẽ có thể chưa đủ diện tích đè lấp (IoU) với nhãn chuẩn hoặc sai tên nhãn,P3,david,R01,,keep_with_reason,,
+calib,C0,adasind_019560.jpg,R2,na,MISSING,Reference có thể gán nhãn cho các vật ở xa (nhỏ hơn 40px) mà tôi đã bỏ qua,P3,david,R03,,keep_with_reason,,
+calib,C0,adasind_019560.jpg,R3,na,MISSING,Do chưa quen gộp nhãn người và xe máy nên tạo ra sai số khi máy chấm,P3,david,R06,,keep_with_reason,,
+calib,C0,adasind_019560.jpg,R4,na,MISSING,,,,,,,,
+calib,C0,adasind_019560.jpg,R5,na,MISSING,,,,,,,,
+calib,C0,adasind_019560.jpg,R6,na,MISSING,,,,,,,,
+r1_craft,B4-dense,adasind_258420.jpg,L4,na,Lỗi tách người xe,Phong vẽ tách rời Pedestrian và Bike thay vì gộp chung thành 1 box Bike,P2,phong,R10,qa_overlay,request_fix,,

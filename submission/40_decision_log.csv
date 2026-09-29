@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2023-10-01,Vẽ xe ở rìa quá nhỏ?,Bỏ qua nếu nhỏ hơn 40px,Theo luật R01,resolved
+2,2023-10-01,Có cần vẽ người đạp xe tách biệt?,Vẽ gộp thành Bike,Theo luật R04,resolved
+3,2023-10-01,Vẽ polygon lens_border sát mép hay chừa khoảng cách?,Đẩy lên Guideline Owner,Chưa rõ,escalated
+4,2023-10-01,Có cần polygon ego_body nếu không thấy đầu xe?,Không vẽ,Dựa trên QA,resolved
